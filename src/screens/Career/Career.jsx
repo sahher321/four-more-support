@@ -18,11 +18,7 @@ import {
 const Career = () => {
   return (
     <>
-      {/* <Banner
-        head="Find career that fits your ambitions only at"
-        para="Our vision for NDIS Care
-"
-      /> */}
+      
       <Box paddingY={7}>
         <Container>
           <Grid container spacing={7}>
@@ -105,52 +101,7 @@ const Career = () => {
         <Container>
           <Stack gap={2}>
             <MainHeading heading="Careers at FMS" />
-            {/* <Stack gap={3}>
-              {Array.from({ length: 1 }).map((_, index) => (
-                <Box
-                  sx={{
-                    backgroundColor: "secondary.light",
-                    p: {
-                      xs: 1,
-                      sm: 1,
-                      md: 5,
-                    },
-                  }}
-                >
-                  <Stack width="90%" gap={3}>
-                    <Typography
-                      variant="h4"
-                      color="secondary.main"
-                      fontWeight={600}
-                    >
-                      Affirmative Measure (Disability Only)
-                    </Typography>
-                    <Typography
-                      variant="body1"
-                      fontWeight={300}
-                      color="secondary.main"
-                      borderBottom="1px solid #000000"
-                      paddingBottom={1}
-                    >
-                      Any upcoming opportunity
-                    </Typography>
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      sx={{
-                        width: "max-content",
-                        fontSize: "16px",
-                        textTransform: "none",
-                        color: "secondary.main",
-                      }}
-                      size="large"
-                    >
-                      Apply
-                    </Button>
-                  </Stack>
-                </Box>
-              ))}
-            </Stack> */}
+          
             <Stack
               direction="column"
               alignItems="center"

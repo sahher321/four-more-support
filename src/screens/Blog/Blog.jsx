@@ -43,11 +43,7 @@ const Blog = () => {
 
   return (
     <>
-      {/* <Banner
-        head="Connect with our non stop daily blogs"
-        para="Our Vision for NDIS Care"
-        main="Our Blogs"
-      /> */}
+  
 
       <Box paddingY={5}>
         <Container>

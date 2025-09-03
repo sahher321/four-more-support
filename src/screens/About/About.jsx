@@ -98,28 +98,7 @@ const About = () => {
             >
               <Box width="100%">
                 <MainHeading heading="Meet our dedicated support team in Adelaide" />
-                {/* <Stack
-                  sx={{ backgroundColor: "primary.main", width: "100%" }}
-                  paddingY={2}
-                  paddingX={3}
-                  marginTop={2}
-                  gap={1}
-                >
-                  <Typography
-                    variant="h5"
-                    color="secondary.main"
-                    fontWeight={600}
-                  >
-                    Specialist Support Coordinator
-                  </Typography>
-                  <Typography
-                    variant="h6"
-                    color="secondary.main"
-                    fontWeight={600}
-                  >
-                    Risha Bhura
-                  </Typography>
-                </Stack> */}
+               
               </Box>
             </Box>
 
