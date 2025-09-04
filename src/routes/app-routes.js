@@ -10,7 +10,7 @@ import {
   Support,
   AddBlog,
   Privacy,
-  TermCondition
+  TermCondition,
 } from "../screens";
 
 export const appRoutes = [

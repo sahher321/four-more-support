@@ -14,7 +14,6 @@ const Banner = ({ head, para, main }) => {
       alignItems="center"
       justifyContent="center"
     >
-      
       {/* Background Wave */}
 
       <Box

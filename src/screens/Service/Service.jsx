@@ -26,11 +26,7 @@ import { Box, Stack, Typography, Container, Grid } from "@mui/material";
 const Service = () => {
   return (
     <>
-      {/* <Banner
-        main="Expert specialist support coordination "
-        head="Services in adelaide"
-        para="Tailored support for complex needs Four More Supports is here to help."
-      /> */}
+     
       <SupportCompareSection />
       <Box paddingY={7}>
         <Container>
