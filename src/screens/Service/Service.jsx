@@ -26,7 +26,6 @@ import { Box, Stack, Typography, Container, Grid } from "@mui/material";
 const Service = () => {
   return (
     <>
-     
       <SupportCompareSection />
       <Box paddingY={7}>
         <Container>
@@ -150,13 +149,7 @@ const Service = () => {
           </Stack>
         </Container>
       </Box>
-      {/* 
-      <SupportSection
-        heading="Expert NDIS support, delivered your way"
-        para="At Four More Supports Adelaide, our Specialist Support Coordinators are committed to your success and independence through:"
-        image={sideImage5}
-        items={itemThird}
-      /> */}
+  
       <SupportSectionSecond
         image={sideImage}
         heading="Start Specialist Support Coordination in Adelaide"

@@ -23,18 +23,6 @@ import { Container, Grid, Typography, Box, Stack, Button } from "@mui/material";
 const Support = () => {
   return (
     <>
-      {/* <Banner
-        head="Support coordination at  "
-        main="Navigating NDIS with "
-        para="Maximise your NDIS plan with Support Coordination in Adelaide"
-      /> */}
-      {/* <SupportSectionSecond
-        heading="What is Support Coordination?"
-        para="At Four More Supports, we empower you with expert guidance, practical resources, and personalised support—so you can 
-        make informed decisions, build independence, and achieve your NDIS goals confidently."
-        image={sideImage12}
-        reverse={true}
-      /> */}
       <Box paddingY={7}>
         <Container>
           <Stack

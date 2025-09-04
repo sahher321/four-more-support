@@ -6,8 +6,6 @@ import Input from "../Heading/Input";
 import emailjs from "@emailjs/browser";
 import { IoIosMail } from "react-icons/io";
 
- 
-
 const Footer = ({ setOpenDropdown }) => {
   const handleNDISClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -108,7 +106,7 @@ const Footer = ({ setOpenDropdown }) => {
                       }}
                     >
                       <a
-                         href="https://www.facebook.com/fourmoresupports"
+                        href="https://www.facebook.com/fourmoresupports"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -302,7 +300,6 @@ const Footer = ({ setOpenDropdown }) => {
                 <Typography variant="body1" color="rgba(255, 255, 255, 0.5)">
                   ABN 18660144187
                 </Typography>
-  
               </Stack>
             </Box>
           </Stack>
@@ -337,7 +334,10 @@ const Links = [
 const Linkstwo = [
   { link: "Terms of Use", path: "/termcondition" },
   { link: "Privacy Policy", path: "/privacy" },
-  { link: "Complaints and feedback", path: "https://app.astalty.com.au/form/9efbe171-0d94-49d9-bac3-b18019d937f8" },
+  {
+    link: "Complaints and feedback",
+    path: "https://app.astalty.com.au/form/9efbe171-0d94-49d9-bac3-b18019d937f8",
+  },
 ];
 
 export default Footer;

@@ -295,9 +295,7 @@ const SubNavbar = () => {
                   height: { xs: "16px", sm: "24px" },
                 }}
               >
-                <a
-                  href="mailto:info@fourmoresupports.com.au"
-                >
+                <a href="mailto:info@fourmoresupports.com.au">
                   <img src={Mail} alt="Mail" width="100%" />
                 </a>
               </Box>
