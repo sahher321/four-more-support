@@ -26,7 +26,6 @@ const Psyhco = () => {
   const navigate = useNavigate();
   return (
     <>
-     
       <SupportSectionSecond
         heading="What is Psychosocial Recovery Coaching?"
         para="At Four More Supports, our Psychosocial Recovery Coaching helps individuals with psychosocial disabilities build resilience and lead fulfilling lives through personalised, strength-based support."
@@ -113,11 +112,11 @@ const Psyhco = () => {
       <Box
         sx={{
           background: `linear-gradient(
-      to bottom,
-      rgba(243, 196, 0, 0) 38%,
-      rgba(243, 196, 0, 0.3) 68%,
-      rgba(243, 196, 0, 0) 100%
-    )`,
+                       to bottom,
+                       rgba(243, 196, 0, 0) 38%,
+                       rgba(243, 196, 0, 0.3) 68%,
+                       rgba(243, 196, 0, 0) 100%
+                        )`,
         }}
         paddingY={5}
       >
@@ -172,13 +171,16 @@ const Psyhco = () => {
                 display="flex"
                 alignItems="center"
                 gap={1}
+                component="a"
+                href="mailto:info@fourmoresupports.com.au"
+                sx={{ textDecoration: "none", color: "inherit" }}
               >
                 <span
                   style={{ width: "24px", height: "24px", display: "flex" }}
                 >
                   <img
                     src={maildark}
-                    alt=""
+                    alt="email"
                     style={{ width: "100%", height: "100%" }}
                   />
                 </span>
@@ -194,17 +196,20 @@ const Psyhco = () => {
                 display="flex"
                 alignItems="center"
                 gap={1}
+                component="a"
+                href="tel:+61426393517"
+                sx={{ textDecoration: "none", color: "inherit" }} // keeps style clean
               >
                 <span
                   style={{ width: "24px", height: "24px", display: "flex" }}
                 >
                   <img
                     src={phonedark}
-                    alt=""
+                    alt="phone"
                     style={{ width: "100%", height: "100%" }}
                   />
                 </span>
-                +61426393517
+                +61 426 393 517
               </Typography>
             </Stack>
           </Stack>

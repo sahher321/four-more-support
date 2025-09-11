@@ -62,7 +62,7 @@ const Home = () => {
               </Typography>
 
               <Typography variant="h5" fontWeight={400} color="secondary.main">
-                Specializing in NDIS Support Coordination
+                Specialising in NDIS Support Coordination
                 <Box
                   component="br"
                   sx={{
@@ -82,7 +82,7 @@ const Home = () => {
                 onClick={() => navigate("/contact")}
                 sx={{
                   width: "max-content",
-                  fontSize: "16px",
+                  fontSize: "15px",
                   textTransform: "none",
                   mt: { lg: "2px" },
                   backgroundColor: "secondary.main",

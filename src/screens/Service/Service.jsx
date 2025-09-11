@@ -114,7 +114,7 @@ const Service = () => {
       </Box>
       <SupportSection
         heading="Tailored NDIS Support for Complex Needs"
-        para="Our Specialist Support Coordination in Adelaide is designed for individuals with:"
+        para="Our Specialist Support Coordination in Adelaide is designed for individuals with"
         image={sideImage3}
         items={itemSecond}
         reverse="true"

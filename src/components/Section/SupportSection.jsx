@@ -20,7 +20,6 @@ const SupportSection = ({
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-
         position: "relative",
         overflow: "hidden",
       }}
