@@ -44,7 +44,6 @@ const Blog = () => {
   return (
     <>
   
-
       <Box paddingY={5}>
         <Container>
           <Stack

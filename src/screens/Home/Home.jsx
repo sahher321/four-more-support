@@ -26,6 +26,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <Box sx={{ overflow: "hidden" }}>
+      
       <Stack
         position="relative"
         height={"52vh"}
