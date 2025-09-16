@@ -26,7 +26,6 @@ const Psyhco = () => {
   const navigate = useNavigate();
   return (
     <>
-
       <SupportSectionSecond
         heading="What is Psychosocial Recovery Coaching?"
         para="At Four More Supports, our Psychosocial Recovery Coaching helps individuals with psychosocial disabilities build resilience and lead fulfilling lives through personalised, strength-based support."
@@ -39,7 +38,7 @@ const Psyhco = () => {
         image={sideImage10}
         reverse={true}
       />
-      
+
       <SupportSection
         heading="Empowering Your Journey to Recovery"
         image={sideImage18}

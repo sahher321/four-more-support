@@ -8,7 +8,6 @@ const TermCondition = () => {
       <Box paddingY={7}>
         <Container>
           <Stack direction="column" gap={2}>
-
             <MainHeading heading="Terms and Conditions" />
             <MainPara para="Welcome to Four More Supports. These Terms and Conditions outline the rules and responsibilities when using our website and services. By accessing or using our site and services, you agree to comply with these terms." />
 
